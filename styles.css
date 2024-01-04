@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+.main{
+	display:flex;
+	justify-content:space-around;
+}
+.header{
+	text-align:center;
+	background-color:#011e29;
+	color:white;
+	padding:3px;
+}
+.latest-news-section{
+	background-color:white;
+	padding:5px;
+	width:200px;
+	border-radius:5px;
+	margin-top:5px;
+}
+.mainarticle{
+	background-color:white;
+	width:200px;
+	border-radius:5px;
+	margin-top:5px;
+	padding:5px;
+	text-align:center;
+}
+.pictorial-news-section{
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+	text-align:center;
+	border-radius:5px;
+	padding:5px;
+	width:200px;
+}
